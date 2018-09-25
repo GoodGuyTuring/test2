@@ -11,10 +11,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void flush(){
+	fflush(stdout);
+}
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	return EXIT_SUCCESS;
+	int a = 0;
+	printf("HALLO\n");
+	flush();
+	scanf("%i",&a);
+	printf("%i\n",a);
+	flush();
+
+
+	return 0;
 	//HALLO
 }
+
+
+
 //ksmcakscklawsmckl
 //LALALALAL
